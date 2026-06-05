@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# 📍 GeoTracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación web desarrollada en React que permite obtener la ubicación actual del usuario mediante la API de Geolocalización del navegador y visualizarla en un mapa interactivo utilizando OpenStreetMap y React Leaflet.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Características
 
-### `npm start`
+* Obtiene la ubicación actual del usuario.
+* Muestra latitud y longitud en tiempo real.
+* Visualiza la ubicación en un mapa interactivo.
+* Muestra la precisión de la geolocalización.
+* Interfaz moderna y responsive.
+* Desarrollado completamente en React sin backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tecnologías Utilizadas
 
-### `npm test`
+* React
+* JavaScript
+* React Leaflet
+* Leaflet
+* OpenStreetMap
+* CSS3
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📷 Vista Previa
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![GeoTracker](public/image.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Estructura del Proyecto
 
-### `npm run eject`
+```text
+src/
+│
+├── pages/
+│   └── Home.js
+│
+├── styles/
+│   └── app.css
+│
+├── App.js
+├── main.js
+│
+public/
+│
+└── image.png
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Instalación
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clonar el repositorio:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+git clone https://github.com/ErvinCAmpie/GeoTracker.git
+```
 
-## Learn More
+Ingresar al proyecto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd GeoTracker
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Instalar dependencias:
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Ejecutar la aplicación:
 
-### Analyzing the Bundle Size
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🎯 Funcionalidades
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Solicita permisos de ubicación al usuario.
+* Obtiene coordenadas geográficas mediante Geolocation API.
+* Centra automáticamente el mapa en la ubicación detectada.
+* Coloca un marcador indicando la posición actual.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👨‍💻 Autor
 
-### Deployment
+Erving Isaac C.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Proyecto desarrollado como práctica de React y Geolocalización para portafolio profesional.
